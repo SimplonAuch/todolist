@@ -11,4 +11,4 @@ $("#Send").click(function() {		// quand on click sur le input submit il se passe
 
 });
 
-//balise input normalement pas de html 
+//balise input normalement pas de html
