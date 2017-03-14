@@ -8,5 +8,7 @@ var bar;							// variable bar initialisé
 $("#Send").click(function() {		// quand on click sur le input submit il se passe...
 	bar = $("input").hmtl();		// bar récupère le contenu html du input
 	$('li').text(bar);				// il doit le mettre dans la liste (normalement...)
-	
-})
+
+});
+
+//balise input normalement pas de html 
