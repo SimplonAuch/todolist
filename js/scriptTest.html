@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8"/>
+  <title>script test todo List</title>
+  <!-- <link rel="stylesheet" type="text/css" href="style.css"> -->
+</head>
+<body>
+  <header>
+    <h1>To Do List</h1>
+  </header>
+
+  <!-- Deux formulaire avec chacun un champ required, necessaire sinon les deux champs sont requis dans tout les cas -->
+
+<!-- NOUVELLE TACHE -->
+  <form id="taskForm">
+    <input id="addTaskText" type="text" name="todo" placeholder="entrer une nouvelle tache" pattern="[A-Za-z0-9 ]+" maxlength="256" required/>
+<!-- il faudra bien utiliser la fonction jquery .submit( function() {.......} ); ou on("submit" , function(){........});
+car le click() lui sera toujours declancher meme si on ne respecte pas le pattern et le required (voir appTest.js)-->
+    <input id="addTaskButton" type="submit" name="AddTaskButton" value="envoyer"/>
+  </form>
+
+
+
+<!-- NOUVELLE LISTE -->
+  <form id="newListForm" target="_blank">
+    <input id="addListText" type="text" name="AddAlist" placeholder="entrer une nouvelle liste" pattern="[A-Za-z0-9 ]+" maxlength="32" required/>
+
+    <input id="addListButton" type="submit" name="AddListButton" value="envoyer"/>
+  </form>
+
+
+<!-- les chemin on ete modifier pour coller a l'emplacement (interieur du dossier js) -->
+  <script type="text/javascript" src="../node_modules/jquery/dist/jquery.min.js"></script>
+  <script type="text/javascript" src="appTest.js"></script>
+</body>
+</html>
