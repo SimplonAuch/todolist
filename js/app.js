@@ -27,4 +27,4 @@ $("#addTaskButton").click(function(){
   if(stringIsNotEmpty(value) && trimTask(value, 100)){
       $("#todoList").append("<li>" + value + "</li>");
   };
-}).
+})
