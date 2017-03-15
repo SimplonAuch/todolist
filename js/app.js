@@ -31,4 +31,7 @@ $("#Send").click(function() {		// quand on click sur le input submit il se passe
 });
 
 //balise input normalement pas de html
+<<<<<<< HEAD
 >>>>>>> e4bb759591c39e516676efc283088412b746e0ce
+=======
+>>>>>>> cea59db07aeb3d5197c173c9da3a6787ad217637
